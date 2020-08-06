@@ -1,0 +1,82 @@
+/* Basic Reset*/
+/* https://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 16px;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ul {
+	list-style: none;
+}
+
+
+
+body {
+	width: 500px;
+}
+form {
+    width: 50%;
+	background-color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 7px;
+	
+}
+
+.outpout{
+    background-color: gray;border: white;color: white;
+}
+
+#display {
+    
+	width: 98%;
+	height: 30px;
+	text-align: right;
+	font-size: 1.5rem;
+}
+.digit {
+	font-size: 2rem;
+    background-color:#078ef7;
+    border-color: white;
+
+    color: white;
+	height: 55px;
+	width: 25%;
+	display: inline-block;
+	padding: 5px;
+}
+.oper {
+	font-size: 2rem;
+    background-color: #23bef7;
+        color: white;
+
+	height: 55px;
+    width: 20%;
+    border-color: white;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px;
+}
+.print{
+    border: white;
+    color: white;
+    width: 100%;
+    height: 50px;
+	background-color: #f7b45d;
+}
